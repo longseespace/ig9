@@ -1,0 +1,6 @@
+#!/bin/sh
+while true
+do
+php cron.php sendMail
+sleep 5
+done

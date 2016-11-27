@@ -1,0 +1,85 @@
+#User
+{
+  "_id" : "ObjectId",
+  "email" : "String, Email",
+  "password" : "String, HashPassword",
+  "profile" : {
+    "name" : "String",
+    "location" : "String, Enum",
+    "bio" : "String"
+  },
+  "backedHistory" : [
+    "EmbedTransaction"
+  ]
+}
+
+#Project
+{
+  "_id" : "ObjectId",
+  "userId" : "ObjectId",
+  "title" : "String",
+  "description" : "String",
+  "video" : "String, Url",
+  "image" : "String, Url",
+  "endTime" : "Timestamp",
+  "fundingGoal" : "Number, Money",
+  "fundingCurrent" : "Number, Money",
+  "backerIds" : [
+    "ObjectId, Reference(User._id)"
+  ],
+  "rewards" : [
+    "EmbedReward"
+  ],
+  "comments" : [
+    {
+      "_id" : "ObjectId",
+      "parentId" : "ObjectId, Reference(User.comments.$)",
+      "content" : "String"
+    }
+  ],
+  "activities" : [
+    "EmbedActivity"
+  ]
+}
+
+#Reward
+{
+  "_id" : "ObjectId",
+  "title" : "String",
+  "description" : "String",
+  "amount" : "Number, Money",
+  "deliveryDate" : "Timestamp",
+  "backerLimit" : "Number",
+  "transactionCount" : "Number, Auto"
+}
+
+#Report
+{
+  "_id" : "ObjectId",
+  "projectId" : "ObjectId, Reference(User._id)",
+  "reason" : "String, Enum",
+  "description" : "String"
+}
+
+#ProjectTaxonomy
+{
+  "_id" : "ObjectId",
+  "parentId" : "ObjectId, Reference(ProjectTaxonomy._id)",
+  "type" : "String, Enum",
+  "name" : "String",
+  "slug" : "String"
+}
+
+#Activity
+{
+  "_id" : "ObjectId",
+  "action" : "String, Enum",
+  "description" : "String",
+  "comments" : [
+    {
+      "_id" : "ObjectId",
+      "parentId" : "ObjectId, Reference(User.comments.$)",
+      "content" : "String"
+    }
+  ]
+}

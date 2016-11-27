@@ -1,0 +1,138 @@
+
+@import "general.less";
+
+body.help { background: white;
+  #topbar { box-shadow:none;
+    #tb-learn, #tb-learn:hover {border-bottom: white solid 3px;}
+  }
+}
+#page-index {
+  h1 { text-align: center; margin-top: 20px;}
+  .divider { display: block; width: 100%; height: 1px; border-top: 1px dotted #B2B2B2; margin-top: -20px;}
+  p { color: #666;}
+  h2 { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; text-align: center; color: #B2B2B2;
+    .text { background: white; padding: 0 10px; position: relative;}
+  }
+  #faqs_block {
+    .row {
+      .span4 { border-right: 1px dotted #B2B2B2; margin-left: -1px; padding-left: 20px;
+        &.last { border: none;}
+        h3 { font-size: 14px; text-transform: uppercase;}
+        .no-bullets { list-style: none; margin-left: 0;
+          a { color: #666;}
+        }
+      }
+    }
+  }
+  #ksr_school { margin: 50px 0 30px; border-top: 1px dotted #B2B2B2; clear: both;
+    p { text-align: center;}
+  }
+  #schools-3 {
+    .span4 p { padding-top: 20px;}
+  }
+  #press { margin: 50px 0;
+    p { text-align: center;}
+  }
+}
+
+#content { width: 960px; font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; padding-bottom: 80px;
+  h1 { font-size: 40px; line-height: 40px; font-weight: bold; color: #333; margin: 0 0 20px 0;}
+  #sidebar { float: left; margin-left: 10px; margin-right: 10px; width: 220px; padding-top: 30px;
+    ul { list-style: none;}
+    ul.subnavigation { margin: 0 0 30px 0;
+      li { margin: 10px 0;
+        a { color: #333; padding: 5px 0; .box-shadow( 0 0 0, 0); font-weight: bold; background: transparent;
+          &:hover { color: @orange; text-decoration: none; }
+          &.main { color: @orange;
+            // &:hover { color: #ff170d;}
+          }
+          &.current { color: #333;}
+        }
+        ul { margin: 10px 0;
+          li { padding-left: 15px; line-height: 22px; margin: 0;
+            a { font-weight: normal;
+              &.category { font-weight: bold;}
+              &.current { margin-left: -16px; padding-left: 12px; border-left: 4px solid @orange;}
+            }
+            ul.subcat-list { margin-top: 5px;}
+          }
+        }
+      }
+    }
+  }
+
+  #main { margin-left: 10px; margin-right: 10px; width: 700px; float: right; padding-top: 30px; color: gray;
+    ul { margin-bottom: 15px;}
+    h1.sub { font-size: 18px; font-weight: normal; line-height: 31px; margin-bottom: 10px;
+      .divider { color: #999; padding: 0 1px;}
+      .no { color: #999; font-weight: normal; font-style: italic;}
+    }
+    h1, h2, h3, strong { color: #333;}
+    h3 { font-size: 14px; text-transform: uppercase; color: #333; line-height: 25px; margin-bottom: 10px; margin-top: 30px;}
+    .list-faqs-subcats { list-style: none; margin: 0;
+      .subcat { margin: 0 0 25px 0;
+        h3 { color: #333; font-size: 14px; text-transform: uppercase; font-weight: bold;}
+        .faqs { list-style: none;
+          li { margin: 0 0 10px 0; line-height: 18px;}
+        }
+      }
+    }
+    .list-faqs { list-style: none;
+      li { list-style: none; margin: 0; color: gray; font-size: 14px; line-height: 22px; margin-bottom: 10px;
+        h2 { border-top: 3px solid #DDD; font-size: 24px; line-height: 35px; padding-top: 20px; margin-bottom: 10px; margin-top: 30px; color: #333;
+          small { font-size: 12px; display: inline; float: right; font-weight: normal;}
+        }
+        .faqs { margin: 0;
+          .faq { border-bottom: 1px dotted #DDD; padding-bottom: 25px;
+            &:last-child { border-bottom: 0; padding-bottom: 10px;}
+            h4 { margin-bottom: 10px; color: #333;}
+          }
+        }
+      }
+    }
+    ul.list-guidelines { list-style: none;
+      > li > strong { font-size: 18px; display: block; margin: 15px 0 10px -20px;}
+    }
+    .footer { padding: 10px 0; overflow: hidden; clear: both;
+      hr { margin: 20px 0 20px 0;}
+      .nav { overflow: hidden;
+        &.alpha { text-align: left; float: left;}
+        &.omega { text-align: right; float: right;}
+        a.button { display: block; font-size: 14px; font-weight: 600; line-height: 20px; text-decoration: none; background: #feddd5; width: 220px; height: 40px; padding: 10px; .border-radius(5px);
+          &:hover { color: white; background: #c94134;}
+          em { display: block; text-transform: uppercase; font-size: 11px; font-weight: normal; letter-spacing: 1px;}
+          &.next {
+            .icon-arrow, .icon-arrow-reversed { position: relative; width: 0; height: 0; border-top: 9px solid transparent; border-right: 9px solid #C9130B;
+              &:after { content: ""; .rotate(45deg); position: absolute; border: 0 solid transparent; width: 12px; height: 12px; }
+            }
+            .icon-arrow { .rotate(-45deg); margin-left: 10px;
+              &:after { border-top: 3px solid #C9130B; border-radius: 20px 0 0 0; top: -12px; left: -9px; }
+            }
+            .icon-arrow-reversed { .rotate(130deg); margin-right: 11px;
+              &:after { border-bottom: 3px solid #C9130B; border-radius: 0 0 0 20px; top: -20px; left: -1px; }
+            }
+          }
+        }
+      }
+    }
+    #legal { .border-radius(3px); margin: 20px 30px 40px; background-color: #F4F4F4; padding: 20px;}
+    ul#logos { overflow: hidden; list-style: none; color: #999; font-size: 12px; margin: 0; margin-bottom: 60px;
+      li { margin-left: 10px; margin-right: 10px; width: 160px; margin-right: 0; float: right; text-align: center;
+        &.alpha { float: left; margin-right: 10px; width: 520px; margin-left: 0;}
+        img { margin: 10px 0;}
+      }
+    }
+    ul#colors { overflow: hidden; list-style: none; color: #999; font-size: 12px; margin: 0; margin-bottom: 60px;
+      li.alpha { margin-left: 0; padding-right: 60px;}
+      li {  float: left; margin-left: 10px; margin-right: 10px; width: 160px; text-align: center;}
+      li.omega {  margin-right: 0; padding-left: 60px;}
+      span { float: left; width: 160px; .border-radius(5px); height: 48px; margin: 10px 0;}
+      #white { border: 1px solid #CCC; background: white;}
+      #green { background: @orange;}
+      #grey { background: #1A1A1A;}
+      td { text-align: left; color: #333;
+        &.color-type { font-weight: bold; padding-right: 20px;}
+      }
+    }
+  }
+}

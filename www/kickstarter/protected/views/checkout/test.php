@@ -1,0 +1,1 @@
+<iframe src="/checkout"></iframe>

@@ -1,0 +1,154 @@
+/* CSS Document */
+@import "general.less";
+
+@gray: #FAFAFA;
+
+#tb-nav { display: none; }
+
+#main-footer .widgets { display: none; }
+
+#project-header{ margin-top: 30px; text-align: center; margin-bottom: 30px;
+  h1 { font-weight: 400; color: @dark;}
+  h2 { font-weight: 300; font-size: 18px; line-height: 20px; color: @gray3;
+    a { color: @mate2;}
+  }
+}
+
+.main { width: 960px; background: @white; .thinshadow;
+  .error-message { display: none; }
+  .error {
+    .error-message { color: @red; display: inline; }
+    input, textarea { border-color: @red; }
+  }
+  .content { padding: 10px;
+    label { margin-top: 14px; display: block; font-size: 16px; font-weight: bold; color: #333; }
+    .field-wrapper { overflow: hidden; background-color: @gray1; .border-radius(6px); padding: 20px; margin: 0;
+      .errorMessage { .border-radius(3px); font-weight: bold; color: white; margin-bottom: 5px; padding: 5px 10px; background: @orange;}
+      input.amount { border: 1px solid darken(@gray, 20%); font-size: 28px; font-weight: bold; padding: 10px 5px; display: inline; float: left; color: #666; width: 280px; margin: 0; }
+      .help { margin-left: 20px; float: left; }
+      textarea, input[type="text"], input[type="password"], select { background: @white url(../img/bg-input-text.png) repeat-x top; border: 1px solid #ccc; .border-radius(3px); .gradient(white, whitesmoke);
+        &:focus { background-color: @white ; .transition(all .4s); .gradient(@white, @white); .box-shadow(0 0 5px #b4d7f9); outline: none; border-color: #55a4f2; }
+      }
+    }
+    ol.field-wrapper { list-style: none; padding: 0;
+      li { border-bottom: 1px solid darken(@gray, 10%); padding: 15px 20px; overflow: auto; zoom: 1; margin-left: 0;
+        &.no_thx { .border-radius(6px 6px 0 0); }
+        input { display: inline; float: left; vertical-align: top; margin-right: 8px; margin-top: 5px; }
+        label { display: inline; float: left; vertical-align: top; color: #444; font-size: 14px; font-weight: bold; padding-top: 3px; padding-right: 10px; margin: 0; }
+        span.indicator { display: none; background-color: @mate2; color: white; float: left; clear: left; padding: 1px 5px; margin-bottom: 2px; font-size: 85%; }
+        p { margin: 0 0 0 130px; line-height: 20px; font-size: 14px; margin-bottom: 5px; padding-top: 3px; color: #333; }
+        &:hover, &.selected { background-color: @mate; cursor: pointer; }
+        &:last-child { border-bottom: none; .border-radius(0 0 6px 6px); }
+      }
+    }
+    .actions { height: 50px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ccc;
+      input { display: inline; float: right; }
+    }
+  }
+
+  .checkout_cher { margin-top: 10px;
+    p { font-size: 14px; line-height: 20px; margin-bottom: 22px; }
+    ul { margin: 0; border: 0; overflow: hidden; padding: 10px 0 20px;
+      li { list-style: none; margin-left: 0; white-space: nowrap; display: inline; float: left; padding-right: 10px;
+        a { display: block; .border-radius(3px); height: 50px; line-height: 50px; color: white; text-align: center; font-size: 16px; font-weight: bold; padding: 0 30px; text-decoration: none; }
+        .share_twitter { background: #36AADF url(../img/thanks/twitter.png) no-repeat 20px 50%; padding-left: 64px;
+          &:hover { background-color: #2096CC; }
+        }
+        .share_facebook { background: #496499 url(../img/thanks/facebook.png) no-repeat 20px 50%; padding-left: 51px;
+          &:hover { background-color: #3C527D; }
+        }
+      }
+    }
+  }
+
+  .checkout_receipt { margin-top: 20px;
+    dt { color: #999; font-size: 11px; text-transform: uppercase; font-weight: bold; clear: left; display: block; padding: 5px 0; margin-left: 0; }
+    dd { color: #333; font-size: 12px; padding: 0; margin-bottom: 15px; margin-left: 0; display: block; }
+
+    .pledge_amount { font-weight: bold; font-size: 24px; line-height: 20px; }
+  }
+}
+
+.checkout-payment {
+  .container {
+    padding: 10px;
+    #main {
+      display: inline;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 620px;
+      padding-right: 20px;
+      .pledges__checkout_summary { background-color: #faf9f5; border-bottom: 1px solid #e0dfdc; border-left: 1px solid #e0dfdc; border-right: 1px solid #e0dfdc;
+        dl { margin: 0;
+          dt { width: 150px; border-top: 1px solid #e0dfdc; color: #75796f; font-size: 11px; text-transform: uppercase; font-weight: bold; display: inline; float: left; clear: left; padding: 10px; margin-bottom: 0;
+          }
+          dd {
+            width: 440px; border-top: 1px solid #e0dfdc; color: #0b1902; display: inline; float: left; padding: 10px 0; margin-left: 0;
+            label {
+              font-size: 12px; font-weight: bold;
+            }
+            input[type=radio] {
+              margin: 0;
+              margin-right: 5px;
+            }
+            p.description {
+              margin-left: 18px; margin-right: 10px; color: #888; font-style: italic;
+            }
+            .radio-show {
+              margin-left: 18px; display: none;
+            }
+          }
+        }
+
+        h3.title {
+          font-size: 16px; line-height: 18px; font-weight: bold; margin-bottom: 6px;
+        }
+      }
+      .submit { float: right; font-size: 16px; padding: 10px 10px; width: 140px; display: block; color: @white; background: #FF9800; .border-radius(4px); text-transform: uppercase; border: 1px solid;
+        &:hover { text-decoration: none; background: #3F5765}
+      }
+      .submit[disabled=disabled] {
+        opacity: 0.6;
+        &:hover { background: #FF9800; }
+      }
+      #profile-required {
+        input, textarea {
+          display: block; width: 95%;
+        }
+      }
+    }
+
+    #sidebar {
+      display: inline;
+      float: left;
+      width: 260px;
+      margin-left: 10px;
+      margin-right: 10px;
+      .NS_pledges__checkout_accountability {
+        padding: 10px;
+        background: #f6f8f2;
+        border: 1px solid #d0d5cb;
+        margin-top: 58px;
+      }
+    }
+  }
+
+}
+
+#card-charge-modal {
+  .modal-loader {
+    background-color: rgba(0, 0, 0, 0.4); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; display: none;
+    .progressing {
+      position: absolute; top: 50%; left: 50%; padding: 3px; height: 100px; width: 180px; margin-top: -47px; margin-left: -90px; text-align: center; background: rgba(255, 255, 255, 0.7); .border-radius(4px);
+    }
+  }
+}
+
+.c-pledge.a-success {
+  .herounit {
+    display:inline-block; padding: 15px; background-color: #efefef; font-size: 36px; line-height: 36px; .border-radius(6px);
+  }
+}
+
+#main-footer { top: -10px; }

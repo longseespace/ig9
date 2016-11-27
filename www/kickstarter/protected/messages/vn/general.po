@@ -1,0 +1,525 @@
+msgctxt "app"
+msgid "by %s in %s"
+msgstr "bởi %s trong %s"
+
+msgctxt "app"
+msgid "funded"
+msgstr "đã tài trợ"
+
+msgctxt "app"
+msgid "pledged"
+msgstr "Đã đặt"
+
+msgctxt "app"
+msgid "by %s"
+msgstr "bởi %s"
+
+msgctxt "app"
+msgid "Discover"
+msgstr "Khám phá"
+
+msgctxt "app"
+msgid "Great Projects"
+msgstr "Những dự án lớn"
+
+msgctxt "app"
+msgid "Learn"
+msgstr "Tìm hiểu"
+
+msgctxt "app"
+msgid "Your Benefits"
+msgstr "Lợi ích của bạn"
+
+msgctxt "app"
+msgid "Start"
+msgstr "Bắt đầu"
+
+msgctxt "app"
+msgid "your project"
+msgstr "dự án của bạn"
+
+msgctxt "app"
+msgid "Sign up"
+msgstr "Đăng ký"
+
+msgctxt "app"
+msgid "Log in"
+msgstr "Đăng nhập"
+
+msgctxt "app"
+msgid "Remember me"
+msgstr "Ghi nhớ tài khoản"
+
+msgctxt "app"
+msgid "I've forgotten my password"
+msgstr "Tôi đã quên mật khẩu"
+
+msgctxt "app"
+msgid "Ignite is a funding platform for creative projects."
+msgstr "Ignite là nền tảng thu hút vốn cho những dự án sáng tạo."
+
+msgctxt "app"
+msgid "Explore Now"
+msgstr "Tìm hiểu ngay"
+
+msgctxt "app"
+msgid "Browse by Category"
+msgstr "Duyệt theo danh mục"
+
+msgctxt "app"
+msgid "Join our newsletter"
+msgstr "Đăng ký cập nhật tin tức mới"
+
+msgctxt "app"
+msgid "and get awesome updates on projects"
+msgstr "và nhận những cập nhật về những dự án tuyệt vời"
+
+msgctxt "app"
+msgid "Join"
+msgstr "Tham gia"
+
+msgctxt "app"
+msgid "Join us on Facebook"
+msgstr "Tham gia với chúng tôi trên Facebook"
+
+msgctxt "app"
+msgid "Connect with IG9"
+msgstr "Kết nối với IG9"
+
+msgctxt "app"
+msgid "Copyright © 2012 - IG9.vn"
+msgstr "Bản quyền © 2012 - IG9.vn"
+
+msgctxt "app"
+msgid "Me"
+msgstr "Tôi"
+
+msgctxt "app"
+msgid "Staff Picks"
+msgstr "Nhân viên bình chọn"
+
+msgctxt "app"
+msgid "by"
+msgstr "bởi"
+
+msgctxt "app"
+msgid "Popular"
+msgstr "Phổ biến"
+
+msgctxt "app"
+msgid "Recently Successful"
+msgstr "Vừa thành công"
+
+msgctxt "app"
+msgid "Recently Launched"
+msgstr "Vừa được khởi công"
+
+msgctxt "app"
+msgid "Ending Soon"
+msgstr "Sắp kết thúc"
+
+msgctxt "app"
+msgid "Most Funded"
+msgstr "Được tài trợ nhiều nhất"
+
+msgctxt "app"
+msgid "View more"
+msgstr "Xem tiếp"
+
+msgctxt "app"
+msgid "No Project Available Yet"
+msgstr "Vẫn chưa có dự án nào"
+
+msgctxt "app"
+msgid "Popular Right Now"
+msgstr "Đang phổ biến"
+
+msgctxt "app"
+msgid "Share this project on"
+msgstr "Chia sể dự án này trên"
+
+msgctxt "app"
+msgid "Launched"
+msgstr "Đẫ khởi công"
+
+msgctxt "app"
+msgid "Funding Ends"
+msgstr "Thu hút vốn kết thúc"
+
+msgctxt "app"
+msgid "Remind me"
+msgstr "Nhắc tôi"
+
+msgctxt "app"
+msgid "Backers"
+msgstr "Những người ủng hộ"
+
+msgctxt "app"
+msgid "Raised"
+msgstr "Đã thu hút"
+
+msgctxt "app"
+msgid "Days to go"
+msgstr "Ngày còn lại"
+
+msgctxt "app"
+msgid "Back this Project"
+msgstr "Ủng hộ dự án này"
+
+msgctxt "app"
+msgid "This project will only be funded if at least %s is pledged by %s."
+msgstr "Dự án này sẽ chỉ được cấp vốn khi ít nhất %s được đặt bởi %s."
+
+msgctxt "app"
+msgid "Project by"
+msgstr "Dự án của"
+
+msgctxt "app"
+msgid "Send A Message to %s"
+msgstr "Gửi tin nhắn cho %s"
+
+msgctxt "app"
+msgid "Contact me"
+msgstr "Liên lạc"
+
+msgctxt "app"
+msgid "created"
+msgstr "đã tạo"
+
+msgctxt "app"
+msgid "backed"
+msgstr "đã ủng hộ"
+
+msgctxt "app"
+msgid "Has not connected Facebook"
+msgstr "Không có kết nối với Facebook"
+
+msgctxt "app"
+msgid "Pledge %s or more"
+msgstr "Đặt %s hoặc nhiều hơn"
+
+msgctxt "app"
+msgid "Est. Delivery"
+msgstr "Dự định giao hàng"
+
+msgctxt "app"
+msgid "Pledge amount:"
+msgstr "Lượng tiền đặt:"
+
+msgctxt "app"
+msgid "Description:"
+msgstr "Mô tả:"
+
+msgctxt "app"
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgctxt "app"
+msgid "Login"
+msgstr "Đăng nhập"
+
+msgctxt "app"
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgctxt "app"
+msgid "Backed %s projects · Joined "
+msgstr "Đã ủng hộ %s dự án · Đã tham gia "
+
+msgctxt "app"
+msgid "Comments"
+msgstr "Bình luận"
+
+msgctxt "app"
+msgid "Meet your new project."
+msgstr "Hãy xem dự án mới của bạn."
+
+msgctxt "app"
+msgid "Start by giving it a name, a pic, and other important details."
+msgstr "Bắt đầu với việc dặt tên, đưa ra một hình ảnh và những chi tiết quan trọng khác."
+
+msgctxt "app"
+msgid "Your project title should be simple, specific, and memorable, and it should include the title of the creative project you're raising funds for. Avoid words like "help,” "support,” or "fund.”"
+msgstr "Tiêu đề dự án của bạn nên đơn giản, cụ thể, dễ nhớ và nên chứa thông điệp về dự án sáng tạo mà bạn đang muốn thu hút vốn. Hãy tránh dùng những từ như "giúp", "ủng hộ" hoặc "tài trợ"."
+
+
+msgctxt "app"
+msgid "If you had to describe your project in one tweet, how would you do it?"
+msgstr "Nếu bạn phải mô tả dự án của bạn trong một dòng, bạn sẽ nói gì?"
+
+msgctxt "app"
+msgid "Next"
+msgstr "Tiếp theo"
+
+msgctxt "app"
+msgid "Sign out and sign in with different account"
+msgstr "Đăng xuất và đăng nhập dưới một tài khoản khác"
+
+msgctxt "app"
+msgid "not you?"
+msgstr "Đây không phải bạn?"
+
+msgctxt "app"
+msgid "IG9 Basics"
+msgstr "Những điều cơ bản về IG9"
+
+msgctxt "app"
+msgid "Register"
+msgstr "Đăng ký"
+
+msgctxt "app"
+msgid "Start your project"
+msgstr "Bắt đầu dự án của bạn"
+
+msgctxt "app"
+msgid "Every project needs great rewards."
+msgstr "Mọi dự án cần có những phần thưởng tốt."
+
+msgctxt "app"
+msgid "Be creative and price them fairly. Explore other projects for inspiration!"
+msgstr "Hãy sáng tạo và định giá chúng hợp lý. Hãy tìm hiểu các dự án khác để có thêm ý tưởng!"
+
+msgctxt "app"
+msgid "New Reward"
+msgstr "Phần thưởng mới"
+
+msgctxt "app"
+msgid "An error occurred"
+msgstr "Sự cố đã xảy ra"
+
+msgctxt "app"
+msgid "You can limit the availability of a reward as needed. Once the limit is reached, the reward will be marked as "sold out." The estimated delivery date is the date you expect to deliver the reward to backers. If the reward includes multiple items, set your "
+msgstr "Bạn có thể giới hạn số lượng của một mức quà tặng nếu cần. Khi số người ủng hộ chọn hết số lượng quà bạn giới hạn, mức quà sẽ được đánh dấu "Hết quà". Ngày giao quà dự tính là ngày bạn dự định sẽ chuyển quà cho những người ủng hộ. Nếu mức quà bao gồm nhiều món đồ, hãy đặt "
+
+msgctxt "app"
+msgid "Select month..."
+msgstr "Chọn tháng..."
+
+msgctxt "app"
+msgid "January"
+msgstr "Tháng một"
+
+msgctxt "app"
+msgid "February"
+msgstr "Tháng hai"
+
+msgctxt "app"
+msgid "March"
+msgstr "Tháng ba"
+
+msgctxt "app"
+msgid "April"
+msgstr "Tháng tư"
+
+msgctxt "app"
+msgid "May"
+msgstr "Tháng năm"
+
+msgctxt "app"
+msgid "June"
+msgstr "Tháng sáu"
+
+msgctxt "app"
+msgid "July"
+msgstr "Tháng bảy"
+
+msgctxt "app"
+msgid "August"
+msgstr "Tháng tám"
+
+msgctxt "app"
+msgid "September"
+msgstr "Tháng chín"
+
+msgctxt "app"
+msgid "October"
+msgstr "Tháng mười"
+
+msgctxt "app"
+msgid "November"
+msgstr "Tháng mười một"
+
+msgctxt "app"
+msgid "December"
+msgstr "Tháng mười hai"
+
+msgctxt "app"
+msgid "Select year..."
+msgstr "Chọn năm..."
+
+msgctxt "app"
+msgid "Limit"
+msgstr "Giới hạn"
+
+msgctxt "app"
+msgid "Save"
+msgstr "Lưu"
+
+msgctxt "app"
+msgid "Cancel"
+msgstr "Hủy"
+
+msgctxt "app"
+msgid "Please Confirm"
+msgstr "Xin hãy xác nhận"
+
+msgctxt "app"
+msgid "No"
+msgstr "Không"
+
+msgctxt "app"
+msgid "Yes, DELETE"
+msgstr "Vâng, HỦY"
+
+msgctxt "app"
+msgid "Delivery Time must be a valid date"
+msgstr "Thời hạn giao quà phải là một ngày hợp lệ"
+
+msgctxt "app"
+msgid "Reward #"
+msgstr "Quà #"
+
+msgctxt "app"
+msgid "Edit this reward"
+msgstr "Chỉnh sửa món quà này"
+
+msgctxt "app"
+msgid "Edit reward"
+msgstr "Sửa quà"
+
+msgctxt "app"
+msgid "Delete this reward"
+msgstr "Hủy món quà này"
+
+msgctxt "app"
+msgid "Delete reward"
+msgstr "Hủy quà"
+
+msgctxt "app"
+msgid "Est. Delivery:"
+msgstr "Dự định giao hàng:"
+
+msgctxt "app"
+msgid "Reward has been saved."
+msgstr "Phần quà đã được lưu."
+
+msgctxt "app"
+msgid "Use your project description to share more about what you’re raising funds to do and how you plan to pull it off. It’s up to you to make the case for your project."
+msgstr "Hãy dùng bản mô tả dự án của bạn để chia sẻ thêm về mục đích thu hút vốn của bạn và bạn dự định sẽ sử dụng vốn như thế nào. Bạn phải tự mình chứng tỏ sự hấp dẫn của dự án của bạn."
+
+msgctxt "app"
+msgid "Now a little bit about you."
+msgstr "Bây giờ là đôi nét về bản thân bạn."
+
+msgctxt "app"
+msgid "Tell people who you are! Supporting links are always nice."
+msgstr "Hãy để mọi người biết bạn là ai! Sử dụng các đường link liên kết ngoài để cho mọi người có thêm thông tin về bạn là cách rất tốt."
+
+msgctxt "app"
+msgid "The homestretch!"
+msgstr "Giai đoạn cuối cùng!"
+
+msgctxt "app"
+msgid "Once everything is in place, submit your project for review."
+msgstr "Khi bạn nghĩ mọi thứ đã sãn sàng, hãy đề xuất dự án của bạn để chúng tôi xem xét."
+
+msgctxt "app"
+msgid "Before you submit"
+msgstr "Trước khi đề xuất"
+
+msgctxt "app"
+msgid "Make sure you have:"
+msgstr "Hãy chắc rằng bạn đã:"
+
+msgctxt "app"
+msgid "Clearly explained what you're raising funds to do."
+msgstr "Giải thích rõ ràng mục đích thu hút vốn của bạn."
+
+msgctxt "app"
+msgid "Added a video! It's the best way to connect with your backers."
+msgstr "Thêm Video, cách tốt nhất để bạn kết nối với những người ủng hộ!"
+
+msgctxt "app"
+msgid "Created a series of well-priced, fun rewards. Not just thank-yous!"
+msgstr "Tạo được một danh sách các mức phần thưởng thú vị, được định giá hợp lý chứ không chỉ là lời cảm ơn!"
+
+msgctxt "app"
+msgid "Previewed your project and gotten feedback from a friend."
+msgstr "Để dự án của bạn được xem trước và nhận xét từ bạn bè của bạn."
+
+msgctxt "app"
+msgid "Checked out other projects on Ignite and backed one to get a feel for the experience."
+msgstr "Kiểm tra, tìm hiểu các dự án đã hoạt động trên Ignite hoặc thậm chí ủng hộ một dự án để có thêm kinh nghiệm."
+
+msgctxt "app"
+msgid "After you submit"
+msgstr "Sau khi bạn đề xuất"
+
+msgctxt "app"
+msgid "Once you've done everything listed above and submitted your project for review:"
+msgstr "Một khi bạn đã làm mọi việc kể trên và đề xuất dự án cho chúng tôi xem xét:"
+
+msgctxt "app"
+msgid "Your project will be reviewed to ensure it meets the Project Guidelines."
+msgstr "Dự án của bạn sẽ được xem xét để đảm bảo dự án của bạn phù hợp với Hướng dẫn dự án của chúng tôi."
+
+msgctxt "app"
+msgid "Within a few days, we'll send you a message about the status of your project."
+msgstr "Trong vòng ít ngày, chúng tôi sẽ gửi tin nhắn thông báo cho bạn về tình trạng dự án cảu bạn."
+
+msgctxt "app"
+msgid "If approved, you can launch whenever you're ready."
+msgstr "Nếu bạn được duyệt, bạn có thể đưa ra thu hút vốn ngay khi bạn sẵn sàng."
+
+msgctxt "app"
+msgid "Guidelines"
+msgstr "Hướng dẫn"
+
+msgctxt "app"
+msgid "IG9 Stats"
+msgstr "Các chỉ số IG9"
+
+msgctxt "app"
+msgid "Privacy Policy"
+msgstr "Chính sách bảo mật"
+
+msgctxt "app"
+msgid "Terms of Use"
+msgstr "Điều khoản sử dụng"
+
+msgctxt "app"
+msgid "Restore"
+msgstr "Khôi phục"
+
+msgctxt "app"
+msgid "Creators"
+msgstr "Những người sáng lập"
+
+msgctxt "app"
+msgid "Making Your Video"
+msgstr "Tạo Video của bạn"
+
+msgctxt "app"
+msgid "Reward has been updated."
+msgstr "Phần thưởng đã được cập nhật."
+
+msgctxt "app"
+msgid "Defining Your Project"
+msgstr "Xác định dự án của bạn"
+
+msgctxt "app"
+msgid "Style Guide"
+msgstr "Hướng dẫn về mẫu"
+
+msgctxt "app"
+msgid "You haven't backed any projects."
+msgstr "Bạn chưa ủng hộ dự án nào."
+
+msgctxt "app"
+msgid "Let's change that!"
+msgstr "Hãy thay đổi điều đóL!"
+
+msgctxt "app"
+msgid "Discover projects"
+msgstr "Khám phá các dự án"
+

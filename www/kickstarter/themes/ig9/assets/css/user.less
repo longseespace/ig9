@@ -1,0 +1,145 @@
+@import "general.less";
+
+#running-board-wrapper { background: #eee;
+  
+  #running-board { width: 960px; margin: auto; overflow: hidden;
+    .running-menu { position: relative;
+      ul.actions { position: absolute; right: 0; list-style: none; background: white; border-radius: 0 0 5px 5px; z-index: 99;
+        li { float: left; margin: 5px 10px;
+          a { color: #666; border-bottom: 1px solid #C5C5C5; font-weight: bold; 
+            &:hover { color: #333; text-decoration: none;}
+          }
+        }
+      }
+    }
+    h1 { font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-size: 32px; margin: 20px 0; font-weight: 300}
+    .running-content { overflow: hidden;
+      .backed { color: #666; font-size: 18px; margin-bottom: 25px; font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; font-weight: 300}
+      .nav { margin-bottom: 0;
+        
+        a {
+          &:hover { background: @bg}
+        }
+
+        li.active {
+          a {background: @bg;}
+          a:hover { border-bottom-color: transparent;}
+        }
+      }
+    }
+  }
+}
+#user-project-list { list-style-type: none;
+  .prj-img { height: 140px; background: @gray1; margin: 5px; overflow: hidden;}
+  .user-project-cell{ height: 200px; background: @white; .thinshadow(); margin-bottom: 10px; position: relative;
+    h3 { font-size: 16px; font-weight: 400; text-align: center; line-height: 20px; margin: 0;
+      a { color: @gray3;
+        &:hover{ color:@orange; text-decoration: none;}
+      }
+    }
+    .modify { position: absolute; bottom: 10px; right: 10px; height: 18px; width: 200px; font-family: 'Pictos'; font-size: 16px; text-align: right;
+      a { color: @gray3;
+        &:hover{ color:@orange; text-decoration: none;}
+      }
+    }
+  }
+}
+.m-user {
+  .pagination.pagination-centered { clear: both;}
+  .errorSummary, .errorMessage { color: red;}
+  input.error { border: 1px solid red;}
+  .success { padding: 10px; background: rgba(253, 253, 175, 0.52); color: #666; font-weight: bold; border: 2px dotted #E7E700; margin-bottom: 10px;}
+
+  .container {
+    textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { .background-image(top,whiteSmoke,white); width: 364px;}
+    select { width: 386px;}
+    .form { background: white; border: 3px solid #E6E6E6; padding: 30px; width: 380px; margin-bottom: 20px; float: left;
+      form { color: #999; margin: 0;
+        .rememberMe { margin-top: 5px;
+          input { float: left; margin-right: 10px;}
+        }
+        .submit {
+          input { width: 112px; height: 36px; .border-radius(5px); font-weight: bold; text-transform: uppercase; margin-top: 10px; float:left;}
+          .hint { float: left; padding-top: 8px; margin: 9px 0 0 20px; position: relative;
+            a { font-size: 16px;}
+            .or { margin-right: 10px; position: relative; top: -1px;}
+          }
+        }
+      }
+    }
+    .hybrid { background: white; border: 3px solid #E6E6E6; padding: 30px; width: 380px; margin-bottom: 20px; float: right; color: #999;}
+  }
+
+  #project_nav { list-style: none; margin: 20px 0 24px 0;
+    li { display: inline; margin: 0 20px 0 0;
+      a { color: #666; font-size: 16px;
+        &:hover { text-decoration: none; color: #333;}
+        .text { border-bottom: 1px solid #C5C5C5;}
+        .count { font-size: 14px; vertical-align: baseline;}
+      }
+      &.selected a { color: #333; font-size: 25px; font-weight: bold;
+        &:hover { color: #666;}
+        .text { border-bottom: none;}
+        .count { border-radius: 3px; background: #A5A5A5; color: white; padding: 0 5px; vertical-align: 4px;}
+      }
+    }
+  }
+
+  .backed-filter { margin-bottom: 10px; clear: both; overflow: hidden;
+    span { width: 100px; display: block; float: left;}
+    .title { font-weight: bold;}
+    .selected { color: @orange; font-weight: bold;}
+  }
+  .backed-projects { clear: both; margin-top: 20px;}
+  .backed-projects table {width: 100%;
+    img { width: 120px;}
+    td { position: relative;
+      .project-status { position: absolute; background: #ff9800; opacity: 0.8; top:7px; color: white; padding: 0 3px;}
+    }
+    .project { width: 120px;}
+    .title {width: 200px; visibility: hidden;}
+    .time { width: 80px;}
+    .reward { width: 350px;}
+    .status { width: 81px;}
+    .amount { min-width: 45px;}
+  }
+  .no-content {line-height: 26px; font-size: 19px; color: #999; text-align: center; padding: 20px; margin-bottom: 40px;}
+
+  #profile-page { margin-top: 20px;
+    .form {
+      .note, .row { border-bottom: 1px solid #E6E6E6; padding: 20px 0 10px; line-height: 30px;
+        textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { width: 250px; border-radius: 0; box-shadow: none; border: @gray2 solid 1px;}
+        select { width: 262px;}
+        label { float: left; text-align: left; width: 140px; margin: 0 20px 10px 0; white-space: nowrap; line-height: 30px;}
+        &.buttons, &.submit { text-align: center; border-bottom: none;}
+      }
+      .note, .hint { margin-bottom: 0; padding-top: 0; font-size: 10px; line-height: 13px; color: #999;}
+
+      .avatar-wrapper {
+        label { float: none; text-align: center; width: 100%; }
+        .image { text-align: center; 
+          img {border: 1px solid @gray2;}
+        }
+        .actions { text-align: center; padding: 10px; border-bottom: 1px solid @gray;
+          .file-selector { position: relative;
+            .fileinput { top: -8px; bottom: 0; right: 0; .opacity(0); position: absolute; 
+              input { width: 100%; padding: 8px 0;}
+            }
+          }
+          .edit-thumb { margin-top: 10px; }
+        }
+      }
+    }
+
+    #notifications {
+      .multi > label { width: 190px;}
+      .multi-check { float: left; width: 430px;
+        input { float: left; position: relative; top: 2px;}
+        .row { padding: 0 0 10px 0; margin-bottom: 15px; margin: 0;
+          &.last { border: none; margin: 0;}
+        }
+      }
+    }
+  }
+
+}

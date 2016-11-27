@@ -1,0 +1,70 @@
+@gray2: #e1e1e1;
+
+
+.humane,
+.humane-ig9 {
+  position: fixed;
+  -moz-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  z-index: 100000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+.humane,
+.humane-ig9 {
+  font-family: Helvetica Neue, Helvetica, san-serif;
+  font-size: 18px;
+  top: 80px;
+  left: 30%;
+  opacity: 0;
+  width: 40%;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  
+  background-color: #fff;
+
+  -moz-box-shadow: 0 1px 3px rgba(162,162,162,.15) /* drop shadow */,
+  0 0 0 1px @gray2 /* outer stroke */;
+  -webkit-box-shadow:
+    0 1px 3px rgba(162,162,162,.15) /* drop shadow */,
+    0 0 0 1px @gray2 /* outer stroke */;
+  box-shadow:
+    0 1px 3px rgba(162,162,162,.15) /* drop shadow */,
+    0 0 0 1px @gray2 /* outer stroke */;
+}
+.humane p,
+.humane-ig9 p,
+.humane ul,
+.humane-ig9 ul {
+  margin: 0;
+  padding: 0;
+}
+.humane ul,
+.humane-ig9 ul {
+  list-style: none;
+}
+.humane.humane-ig9-error,
+.humane-ig9.humane-ig9-error {
+  color: #fca630;
+  cursor: default;
+}
+.humane-animate,
+.humane-ig9.humane-ig9-animate {
+  opacity: 1;
+}
+.humane-animate:hover,
+.humane-ig9.humane-ig9-animate:hover {
+  opacity: 0.7;
+}
+.humane-js-animate,
+.humane-ig9.humane-ig9-js-animate {
+  opacity: 1;
+}
+.humane-js-animate:hover,
+.humane-ig9.humane-ig9-js-animate:hover {
+  opacity: 0.7;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}

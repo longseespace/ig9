@@ -1,0 +1,37 @@
+/* CSS Document */
+@import "general.less";
+.paragraph-note { margin-left: 20px;}
+#discover-category, #discover-all, #discover-filter { background: #FFF;
+  #topbar { box-shadow: none; border-bottom: @light-gray solid 1px;
+    #tb-discover { border-bottom: @white 3px solid;}
+  }
+  .p-list { min-height: 100px;}
+  .head-title{ margin-bottom: 20px;
+    h1 { font-weight: normal; margin: 0;  
+      strong {font-weight: 600}
+    }
+    .subtitle { font-size: 20px; color: @gray; font-weight: 0; font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; }
+  }
+
+  h3 { margin: 0; line-height: 30px; margin-top: 20px; font-size: 20px;
+    a { font-size: 10px; font-weight: normal; margin-left: 10px;}
+  }
+
+  #projects { margin-top: 20px;
+    .pp-item { margin-top: 10px; margin-bottom: 10px;
+      .ppi-wrap {} /* .project-card-wrap; */
+    }
+  }
+
+  #sidebar-wrap { 
+    #sidebar { border-left: @light-gray solid 1px; padding-left: 10px; padding-bottom: 40px;
+      h3 { margin: 0; line-height: 30px; margin-top: 10px; font-size: 16px; font-weight: 600; padding-left: 20px;}
+      ul { list-style-type: none; margin-left: 5px; 
+        li a { padding-left: 20px; .border-radius(5px); display: block;
+          &:hover, &.selected {background: @light-gray; text-decoration: none;}
+          
+        }
+      }
+    }
+  }
+}

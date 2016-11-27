@@ -1,0 +1,117 @@
+/* CSS Document */
+@import "general.less";
+
+@gray: #FAFAFA;
+
+#message-inbox { width: 940px; background: #fff; position: relative; margin-top: 50px; .thinshadow;
+
+  .sidebar {  float: left; width: 179px; padding-top: 10px;
+    .compose { margin-bottom: 10px; 
+      a, a:visited { padding: 5px 30px; text-shadow: none; text-transform: uppercase; margin-left: 30px; color: #fff; border: 0;
+        &:hover { background: darken(@orange, 10%); color: #fff; }
+      }
+    }
+
+    ul { list-style: none;
+      li {
+        a { font-size: 13px; color: #000; padding-left: 30px; 
+          &.active { color: @orange; padding-left: 27px; }
+        }  
+
+        &.active { border-left: 3px solid @orange; }
+      }
+    }
+  }
+
+  .content { margin-right: 10px; width: 740px; float: right; padding-top: 10px; color: gray; border-left: 1px solid #eee; padding-left: 10px; position: relative;  min-height: 300px;
+    .toolbar { padding-bottom: 10px; overflow: hidden;
+      .buttons { float: left; width: 80%;
+        .btn { -webkit-user-select: none; background: #f1f1f1; color: #444; text-decoration: none; margin-right: 10px; }
+
+        .btn-select {
+          input { position: relative; top: -4px; }
+        }
+      }
+
+      #summary-text { float: right; margin-top: 3px; color: #000; }
+      
+    }
+
+    .table { color: #000;
+      tr { cursor: pointer;
+        td {
+          .message-body { margin: 0; color: #777; }
+          .message-body-full { display: none; }
+
+          &:first-child { width: 10px; }
+          &:nth-child(2) { width: 80px; }
+          &:last-child { width: 100px; }
+        }
+
+        &:last-child { border-bottom: 1px solid #ccc;}
+
+        &.unread {
+          .sender, .message-subject, .time { font-weight: bold; }
+        }
+      }
+    }
+
+    .pagination {
+      ul { border-left: 1px solid #ddd;
+        li {
+          a { color: #444; }
+          &.selected a { background: #f5f5f5; }
+          &.next { .border-radius(0 3px 3px 0); }
+        }
+        
+      }
+    }
+
+    .loading { position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 3; display: none;
+      .spinner { background: white url('../img/spinner.gif') no-repeat 17px 17px; width: 50px; height: 50px; position: absolute; top: 40%; left: 45%; .thinshadow; }
+    }
+
+    .grid-view-loading { background: none; position: relative; cursor: default; .opacity(0.6); }
+    .grid-view-loading ~ .loading { display: block; }
+
+    #message-list {  }
+    #message-detail { margin-bottom: 20px; display: none;
+      .message { border-top: 1px solid #eee;
+        .header { border-bottom: 1px solid #eee; padding-bottom: 5px;
+          #message-subject { color: #000; font-weight: normal; font-size: 18px; margin: 10px 0 5px; line-height: 1; }
+          #message-sender { }
+        }
+        .body { color: #222; margin-top: 10px; font-size: 13px; border-bottom: 1px solid #eee; }
+
+        #message-reply { margin-top: 10px;
+          #editor-placeholder { padding: 10px; border: 1px solid #ccc; box-shadow: 0 1px 1px #eee inset;
+            a { color: #999; }
+          }
+          #editor-wrapper { background: #f5f5f5; border: 1px solid #cfcfcf; padding: 10px; display: none;
+            input[type='text'] { .border-radius(0); width: 704px; }
+            .toolbar { margin-top: 10px; 
+              .btn-reply-send { padding-left: 20px; padding-right: 20px; text-shadow: none; text-transform: uppercase; color: #fff; border: 1px solid darken(@orange, 5%); background: @orange; 
+                &:hover { background: darken(@orange, 10%); color: #fff; }
+              }
+            }
+          }
+        }
+      }
+    }
+    #message-compose { margin-bottom: 20px; display: none;
+      .toolbar {
+        .btn-send { padding-left: 20px; padding-right: 20px; text-shadow: none; text-transform: uppercase; color: #fff; border: 1px solid darken(@orange, 5%); background: @orange; 
+          &:hover { background: darken(@orange, 10%); color: #fff; }
+        }
+      }
+
+      #compose-form { border-top: 1px solid #eee; padding-top: 20px;
+        label { color: #999; width: 100px; float: left; margin-top: 3px; }
+        input { width: 600px; .border-radius(0); }
+        .redactor_editor { height: 300px; color: #333; }
+      }
+    }
+
+  }
+
+}

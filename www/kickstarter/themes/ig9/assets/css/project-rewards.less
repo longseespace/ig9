@@ -1,0 +1,55 @@
+@import "general.less";
+#rewards-panel {
+  fieldset ol { list-style: none;}
+  .reward { 
+    .grey-field { .border-radius(6px); height: auto; margin-bottom: 12px; padding: 4px 3px 4px 4px; background:@light-gray;
+      label { display: inline-block; font-size: 13px; line-height: 18px; padding: 10px; text-align: left; vertical-align: top; width: 160px; margin: 0;}
+      .primary { font-weight: bold;}
+      input.text, textarea {height: 40px; font-size: 13px; padding-left: 9px; padding-right: 9px; padding-top:0; padding-bottom:0; display: inline-block;}
+      .field-help-2 { line-height: 16px; font-size: 12px; margin-top: 10px;
+        p { margin-bottom: 10px;}
+      }
+      .field-wrapper { display: inline-block; vertical-align: middle; zoom:1; width: 448px; overflow: visible;
+        label { font-size: 12px; width: 98px;}
+        input, textarea { .border-radius (0); margin: 0; margin: -1px 0; position: relative;
+          &:focus { z-index: 10}
+        }
+        select { .border-radius(0); border: 1px solid #CCC; margin: -1px 0; position: relative; background: transparent; outline: none; -webkit-appearance: none;}
+        .field_container { .border-radius (3px); border: 1px solid #CCC; background: #E0E0E0; position: relative;
+          .keep-or-delete {position: absolute; top: 0; right: 0; cursor: pointer; background: #EEE; border-left: 1px solid #CCC; width: 70px; height: 40px; 
+            a { display: block; padding: 8px 5px; line-height: 24px; color: #333;
+              &:hover { text-decoration: none;}
+            }
+            &:hover { background: #E0E0E0}
+          }
+          .minimum { width: 221px; vertical-align: top;
+            label { font-size: 12px; width: 98px; position: relative;}
+            input { width: 79px; margin: -1px 0; position: relative; .border-radius(0);}
+          }
+          .description { border-top: 1px solid #CCC; border-bottom: 1px solid #CCC;
+            textarea { margin-right: -1px; width: 305px; height: 100px; z-index: 1; padding-top: 10px; padding-bottom: 10px;}
+          }  
+          .delivery-date { 
+            .date_container { display: inline-block; vertical-align: middle; zoom: 1; margin-right: -1px; width: 325px; line-height: 38px;
+              select.month { background: #FFF url("../img/select-large-bg.png") no-repeat 171px 14px!important; width: 196px; margin-right: -1px; height: 40px; float: left;}
+              select.year { background: #FFF url("../img/select-large-bg.png") no-repeat 104px 14px!important; width: 130px; margin-right: -1px; height: 40px; float: left;}
+            }
+          }
+          .limit { display: block; border-top: 1px solid #CCC; height: 38px;
+            .backers { display: inline-block; height: 20px; padding: 9px; font-weight: bold; font-size: 11px; text-transform: uppercase;}
+            .limit_label { vertical-align: middle; width: 125px; display: inline-block;}
+            input.text { display: inline-block; vertical-align: middle; z-index: auto; width: 60px; height: 38px;}
+          }
+        }
+      }
+    }
+  }
+  .add-another-wrap { background: #EEE; .border-radius(6px); padding: 4px;
+    .add-another { display: block; .border-radius(3px); height: 80px; background: white; border: 1px solid #ccc; padding: 5px; text-align: center;
+      .button { 
+        strong { .border-radius(2px); display: block; border: 1px dashed #ccc; width: 618px; line-height: 78px;}
+      }
+      &:hover { background: #F0F0F0;}
+    }
+  }
+}

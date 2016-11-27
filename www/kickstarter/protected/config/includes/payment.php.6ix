@@ -1,0 +1,63 @@
+<?php
+  return array(
+    'import'=>array(
+      'application.modules.payment.*',
+      'application.modules.payment.models.*',
+      'application.modules.payment.components.*',
+      'application.modules.payment.vendor.*'
+    ),
+    'modules' => array(
+      'payment' => array(
+        'successUrl' => '/pledge/success',
+        'errorUrl' => '/pledge/error',
+        'gateways' => array(
+          'onepay_noidia' => array(
+            'params' => array(
+              'vpc_Version' => '2',
+              'vpc_Command' => 'pay',
+              'vpc_AccessCode' => 'BNVJ2XOH',
+              'vpc_Merchant' => 'EUROPEASIA',
+              'vpc_Locale' => 'vn',
+              'vpc_Currency' => 'VND',
+              'vpc_ReturnURL' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/default/onepaynoidiacallback',
+              'vpc_BackURL' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/default/onepaynoidiacallback',
+            ),
+            'secure_secret' => '73A6EC5D745F5DAD13F396639C73A962',
+            'virtual_payment_url' => 'https://onepay.vn/onecomm-pay/vpc.op'
+          ),
+          'onepay_quocte' => array(
+            'params' => array(
+              'AgainLink' => $_SERVER['SERVER_NAME'],
+              'Title' => 'ig9.vn',
+              'vpc_Version' => '2',
+              'vpc_Command' => 'pay',
+              'vpc_AccessCode' => '87FD6250',
+              'vpc_Merchant' => 'EUROPE_ASIA',
+              'vpc_Locale' => 'vn',
+              'vpc_ReturnURL' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/default/onepayquoctecallback',
+            ),
+            'secure_secret' => '1BF9BD68DD670780C58CD6555D507F17',
+            'virtual_payment_url' => 'https://onepay.vn/vpcpay/vpcpay.op'
+          ),
+          'nganluong' => array(
+            'params' => array(
+              'merchant_site_code'=> '27562',
+              'return_url' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/default/nganluongcallback',
+              'receiver' => 'support@6ix.vn',
+              'transaction_info' =>  'Test'
+            ),
+            'secure_secret' => 'imissuak',
+            'virtual_payment_url' => 'https://www.nganluong.vn/checkout.php'
+          ),
+          'credit' => array(
+            'params' => array(
+              'return_url' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/default/creditcallback'
+            ),
+            'secure_secret' => '123456',
+            'virtual_payment_url' => 'http://'. $_SERVER['SERVER_NAME'] . '/payment/credit/use',
+          )
+        )
+      )
+    )
+  );
+?>
